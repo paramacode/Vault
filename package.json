@@ -1,0 +1,32 @@
+{
+  "name": "@rbxts/vault",
+  "version": "0.1.0",
+  "description": "A resource management system for Roblox, built with roblox-ts and designed for automatic cleanup",
+  "main": "out/init.lua",
+  "types": "out/index.d.ts",
+  "scripts": {
+    "build": "rbxtsc --type package",
+    "watch": "rbxtsc -w --type package",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["roblox", "roblox-ts", "typescript", "vault", "resource management"],
+  "author": "paramacode",
+  "license": "MIT",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.907",
+    "@typescript-eslint/eslint-plugin": "^8.55.0",
+    "@typescript-eslint/parser": "^8.55.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-roblox-ts": "^1.3.1",
+    "prettier": "^3.8.1",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.9.3",
+    "@rbxts/testez": "^0.4.2-ts.0"
+  },
+  "dependencies": {
+    "@rbxts/services": "^1.6.0"
+  }
+}

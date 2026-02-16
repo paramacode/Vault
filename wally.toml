@@ -1,0 +1,17 @@
+[package]
+name = "paramacode/vault"
+version = "0.1.0"
+description = "A resource management system for Roblox, built with roblox-ts and designed for automatic cleanup"
+license = "MIT"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+exclude = ["**"]
+include = [
+  "out/**",
+  "LICENSE.txt",
+  "README.md",
+  "wally.toml"
+]
+
+[dependencies]
