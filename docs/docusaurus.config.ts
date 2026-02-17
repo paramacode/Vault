@@ -5,7 +5,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
 	title: "Vault",
 	tagline: "A resource management system for Roblox, built with roblox-ts",
-	favicon: "img/logo.svg",
+	favicon: "img/logo.png",
 
 	// Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
 	future: {
@@ -62,7 +62,7 @@ const config = {
 			title: "Vault",
 			logo: {
 				alt: "Vault Logo",
-				src: "img/logo.svg",
+				src: "img/logo.png",
 			},
 			items: [
 				{

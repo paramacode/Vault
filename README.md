@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="docs/static/img/logo.svg" alt="Vault" width="150" />
+	<img src="docs/static/img/logo.png" alt="Vault" width="150" />
 	<br>
 	<h style="font-size:2em;"><strong>Vault - A resource management system for Roblox, built with roblox-ts
 <strong/></h>
