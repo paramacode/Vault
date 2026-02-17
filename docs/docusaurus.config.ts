@@ -21,12 +21,12 @@ const config = {
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "paramacode", // Usually your GitHub org/user name.
-	projectName: "paramacode.github.io", // Usually your repo name.
-	deploymentBranch: "main",
+	projectName: "Vault", // Usually your repo name.
+	deploymentBranch: "gh-pages",
 
 	trailingSlash: false,
 
-	onBrokenLinks: "throw",
+	onBrokenLinks: "warn",
 
 	// Even if you don't use internationalization, you can use this field to set
 	// useful metadata like html lang. For example, if your site is Chinese, you
