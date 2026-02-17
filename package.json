@@ -16,7 +16,10 @@
     "vault",
     "resource management"
   ],
-  "files": ["out", "!**/*.tsbuildinfo"],
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
   "author": "paramacode",
   "license": "MIT",
   "devDependencies": {
@@ -38,10 +41,11 @@
     "url": "git+https://github.com/paramacode/Vault.git"
   },
   "publishConfig": {
-		"access": "public"
-	},
+    "access": "public"
+  },
   "dependencies": {
     "@rbxts/services": "^1.6.0",
-    "prismjs": "^1.30.0"
+    "prismjs": "^1.30.0",
+    "yarn": "^1.22.22"
   }
 }
