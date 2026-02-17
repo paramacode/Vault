@@ -7,6 +7,6 @@
 	<a style="font-size: 1.5em" href="https://paramacode.github.io/Vault/"><strong>View docs &rarr;</strong></a>
   <br><br><br>
 
-  Made with love by [@Parama](https://github.com/paramacode)
+  Made with by [@Parama](https://github.com/paramacode)
   <br>
 </div>
