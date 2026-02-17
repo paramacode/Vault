@@ -22,7 +22,7 @@ const config = {
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "paramacode", // Usually your GitHub org/user name.
 	projectName: "paramacode.github.io", // Usually your repo name.
-	deploymentBranch: "main", // <- publicar directamente en main
+	deploymentBranch: "main",
 
 	trailingSlash: false,
 
