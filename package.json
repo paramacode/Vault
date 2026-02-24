@@ -2,14 +2,6 @@
   "name": "@rbxts/vault",
   "version": "0.1.0",
   "description": "A resource management system for Roblox, built with roblox-ts and designed for automatic cleanup",
-  "main": "out/init.lua",
-  "types": "out/index.d.ts",
-  "scripts": {
-    "build": "rbxtsc --type package",
-    "watch": "rbxtsc -w --type package",
-    "serve": "rojo serve testing.project.json",
-    "prepublishOnly": "npm run build"
-  },
   "keywords": [
     "roblox",
     "roblox-ts",
@@ -17,12 +9,37 @@
     "vault",
     "resource management"
   ],
+  "homepage": "https://github.com/paramacode/Vault#readme",
+  "bugs": {
+    "url": "https://github.com/paramacode/Vault/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paramacode/Vault.git"
+  },
+  "license": "MIT",
+  "author": "paramacode",
+  "type": "commonjs",
+  "main": "out/init.lua",
+  "types": "out/index.d.ts",
+  "directories": {
+    "doc": "docs"
+  },
   "files": [
     "out",
     "!**/*.tsbuildinfo"
   ],
-  "author": "paramacode",
-  "license": "MIT",
+  "scripts": {
+    "build": "rbxtsc --type package",
+    "watch": "rbxtsc -w --type package",
+    "serve": "rojo serve testing.project.json",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@rbxts/services": "^1.6.0",
+    "prismjs": "^1.30.0",
+    "yarn": "^1.22.22"
+  },
   "devDependencies": {
     "@rbxts/compiler-types": "^3.0.0-types.0",
     "@rbxts/testez": "^0.4.2-ts.0",
@@ -37,16 +54,7 @@
     "roblox-ts": "^3.0.0",
     "typescript": "^5.9.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paramacode/Vault.git"
-  },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@rbxts/services": "^1.6.0",
-    "prismjs": "^1.30.0",
-    "yarn": "^1.22.22"
   }
 }
