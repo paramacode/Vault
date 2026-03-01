@@ -6,12 +6,21 @@ license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
-exclude = ["**"]
 include = [
+  "src/**",
   "out/**",
   "LICENSE.txt",
   "README.md",
   "wally.toml"
+]
+
+exclude = [
+  "node_modules/**",
+  ".vscode/**",
+  "docs/**",
+  "*.toml",
+  "*.json",
+  "*.tgz"
 ]
 
 [dependencies]

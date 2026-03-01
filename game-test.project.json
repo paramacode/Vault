@@ -1,5 +1,5 @@
 {
-	"name": "vault",
+	"name": "game-test",
 	"globIgnorePaths": ["**/package.json", "**/tsconfig.json"],
 	"tree": {
 		"$className": "DataModel",
@@ -16,6 +16,14 @@
 						}
 					}
 				}
+			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			
+			"main": {
+				"$path": "scripts/run-test.server.luau"
 			}
 		}
 	}

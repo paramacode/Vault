@@ -32,8 +32,11 @@
   "scripts": {
     "build": "rbxtsc --type package",
     "watch": "rbxtsc -w --type package",
-    "serve": "rojo serve testing.project.json",
-    "prepublishOnly": "npm run build"
+    "serve": "rojo serve default.project.json",
+    "prepublishOnly": "npm run build",
+    "game:build": "rbxtsc --type model",
+    "game:watch": "rbxtsc -w --type model",
+    "game:serve": "rojo serve game-test.project.json"
   },
   "dependencies": {
     "@rbxts/services": "^1.6.0",
