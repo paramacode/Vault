@@ -5,7 +5,7 @@
 		"$className": "DataModel",
 		"ReplicatedStorage": {
 			"$className": "ReplicatedStorage",
-			"Linkage": {
+			"Vault": {
 				"$path": "out",
 				"node_modules": {
 					"$className": "Folder",
