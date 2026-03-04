@@ -1,5 +1,5 @@
 import { RunService } from "@rbxts/services";
-import { Log } from "./Utils/LogUtil";
+import { Log } from "./utils/log-util";
 
 export type RobloxConnection = {
 	Connected: boolean;
