@@ -1,6 +1,6 @@
 /// <reference types="@rbxts/testez/globals" />
 
-import { Vault, ConfigureVault, GetVaultConfig, Cleanable } from "index";
+import { Vault, ConfigureVault, GetVaultConfig, Cleanable } from "exports";
 
 export = () => {
 	describe("Constructor", () => {
