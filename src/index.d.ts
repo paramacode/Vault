@@ -18,4 +18,4 @@ export {
 	ConfigureVault,
 	GetVaultConfig,
 	Vault,
-} from "./exports";
+} from "./index";
